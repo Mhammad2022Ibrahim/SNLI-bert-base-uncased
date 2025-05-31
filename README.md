@@ -43,17 +43,21 @@ uvicorn app.main:app --reload
 
 ## Test the API
 Send a POST request to /predict endpoint with JSON payload:
-```json
+```bash
+json
 {
   "premise": "A man inspects the uniform of a figure in some East Asian country.",
   "hypothesis": "The man is sleeping."
-}```
+}
+```
 
 Expected response:
-```json
+```bash
+json
 {
   "premise": "A man inspects the uniform of a figure in some East Asian country.",
   "hypothesis": "The man is sleeping.",
   "label": "contradiction",
   "confidence": 0.98
-}```
+}
+```
