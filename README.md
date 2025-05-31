@@ -25,7 +25,7 @@ This repository contains a BERT-base-uncased model fine-tuned for the Stanford N
 
 ## Installation
 
-Make sure you have Python 3.8+ installed. Then create a virtual environment and install dependencies:
+Make sure you have Python 3.11+ installed. Then create a virtual environment and install dependencies:
 
 ```bash
 python -m venv venv
