@@ -1,0 +1,9 @@
+__pycache__/
+*.py[cod]
+*$py.class
+
+venv/
+# Ignore virtual environment directory
+.env
+.vscode/
+test.py
